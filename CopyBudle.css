@@ -1,0 +1,16 @@
+.h-line td {
+    border-bottom: 3px solid #1B4F72;
+}
+.budget-scroll {
+    max-height: 400px; /* adjust based on modal height */
+    overflow-y: auto;
+    padding: 1rem 0;
+}
+.budget-summary {
+    position: sticky;
+    background-color: white;
+    top: -20px; /* sticks to top of container */
+    z-index: 10;
+    padding: 30px 20px 20px 20px; /* top, right, bottom, left */
+    border-bottom: 1px solid #ddd;
+}
